@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="todoWrapper">
+        <div class="todo">
+            <div class="todoHead">
+                <button class="theme"></button>
+                <input type="text" class="todoInput" placeholder="Введите задачу">
+                <button class="addText"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+            </div>
+            <div class="todoBody">
+                <div class="editBackground"></div>
+                <div class="tasksWrapper">
+                    <div class="outTasks">
+                        <div class="uncompletedTasks"></div>
+                        <hr class="border">
+                        <div class="completedTasks"></div>
+                    </div>
+                </div>
+                <div class="editWindow">
+                    <div class="editWindow__btns">
+                        <button class="editWindow__save"><i class="fa fa-check" aria-hidden="true"></i></button>
+                        <button class="editWindow__cancel"><i class="fa fa-times" aria-hidden="true"></i></button>
+                    </div>
+                    <textarea class="editWindow__text" cols="30" rows="5"></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
