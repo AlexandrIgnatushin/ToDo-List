@@ -15,6 +15,9 @@ body.theme-mod {
 
 button {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    border: none;
+    outline: none;
+    cursor: pointer;
 }
 
 .todoWrapper {
@@ -56,9 +59,6 @@ body.theme-mod .todo {
     background: linear-gradient(141.91deg, #42464C 16.44%, #353A40 83.41%);
     box-shadow: 3px 3px 5px #272C32, -2px -2px 4px rgba(255, 255, 255, 0.05);
     border-radius: 10px;
-    border: none;
-    outline: none;
-    cursor: pointer;
 }
 
 .theme:active {
@@ -111,9 +111,6 @@ body.theme-mod .todoInput {
     font-size: 18px;
     color: #fff;
     padding: 15px 16px;
-    border: none;
-    outline: none;
-    cursor: pointer;
 }
 
 body.theme-mod .addText {
@@ -262,9 +259,6 @@ body.theme-mod .check input:checked+span::before {
     font-size: 18px;
     color: #2C77BC;
     padding: 15px 16px;
-    border: none;
-    outline: none;
-    cursor: pointer;
 }
 
 body.theme-mod .task__option {
@@ -289,9 +283,6 @@ body.theme-mod .task__option:active {
     font-size: 18px;
     color: #BC2C2C;
     padding: 15px 16px;
-    border: none;
-    outline: none;
-    cursor: pointer;
 }
 
 body.theme-mod .task__delete {
@@ -372,9 +363,6 @@ body.theme-mod .border {
     font-size: 18px;
     color: #2CBC5E;
     padding: 15px 16px;
-    border: none;
-    outline: none;
-    cursor: pointer;
 }
 
 body.theme-mod .editWindow__save {
@@ -399,9 +387,6 @@ body.theme-mod .editWindow__save:active {
     font-size: 18px;
     color: #BC2C2C;
     padding: 15px 16px;
-    border: none;
-    outline: none;
-    cursor: pointer;
 }
 
 body.theme-mod .editWindow__cancel {
